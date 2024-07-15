@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="boxes" id="box1"></div>
+      <div class="boxes" id="box2"></div>
+      <div class="boxes" id="box3"></div>
+      <div class="boxes" id="box4"></div>
+      <div class="boxes" id="box5"></div>
+      <div class="boxes" id="box6"></div>
+      <div class="boxes" id="box7"></div>
+      <div class="boxes" id="box8"></div>  
+    </div>
+    <h1>Display Flex with ids</h1>
+
+
+    <div class="container2">
+        <img  src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTiMLtPr6eUg9DZMYGHlvkA9pI6PtXDh84Od8qzgbitlCooW2Au" alt="" class="duh">
+        <div class="something">This</div>
+        <div class="something">That</div>
+        <div class="something">That</div>
+        <div class="something" id="jordan">TheOther</div>
+    </div>
+
+    <!-- Nav Container -->
+    <h1>Align Items 1</h1>
+    <nav class="Nav1Container">
+    <nav class="NavContainer1">
+        <div class="Navlink1" id="LA1">Link1</div>
+        <div class="Navlink1" id="LA2">Link2</div>
+        <div class="Navlink1" id="LA3">Link3</div>
+        <div class="Navlink1" id="LA4">Link4</div>
+        <div class="Navlink1" id="LA5">Link5</div>
+    </nav>
+    <nav class="NavContainer2">
+        <div class="Navlink2" id="LB1">Link1</div>
+        <div class="Navlink2" id="LB2">Link2</div>
+        <div class="Navlink2" id="LB3">Link3</div>
+        <div class="Navlink2" id="LB4">Link4</div>
+        <div class="Navlink2" id="LB5">Link5</div>
+    </nav>
+    <nav class="NavContainer3">
+      <div class="Navlink3" id="LC1">Link1</div>
+      <div class="Navlink3" id="LC2">Link2</div>
+      <div class="Navlink3" id="LC3">Link3</div>
+      <div class="Navlink3" id="LC4">Link4</div>
+      <div class="Navlink3" id="LC5">Link5</div>
+  </nav>
+  <nav class="NavContainer4">
+    <div class="Navlink4" id="LD1">Link1</div>
+    <div class="Navlink4" id="LD2">Link2</div>
+    <div class="Navlink4" id="LD3">Link3</div>
+    <div class="Navlink4" id="LD4">Link4</div>
+    <div class="Navlink4" id="LD5">Link5</div>
+</nav>
+</nav>
+
+ <!-- Nav Container -->
+ <h1>Align Items 2</h1>
+ <nav class="Nav2Container">
+  <nav class="Nav2Container1">
+      <div class="Navlink1" id="L2A1">Link1</div>
+      <div class="Navlink1" id="L2A2">Link2</div>
+      <div class="Navlink1" id="L2A3">Link3</div>
+      <div class="Navlink1" id="L2A4">Link4</div>
+      <div class="Navlink1" id="L2A5">Link5</div>
+  </nav>
+  <nav class="Nav2Container2">
+      <div class="Navlink2" id="L2B1">Link1</div>
+      <div class="Navlink2" id="L2B2">Link2</div>
+      <div class="Navlink2" id="L2B3">Link3</div>
+      <div class="Navlink2" id="L2B4">Link4</div>
+      <div class="Navlink2" id="L2B5">Link5</div>
+  </nav>
+  <nav class="Nav2Container3">
+    <div class="Navlink3" id="L2C1">Link1</div>
+    <div class="Navlink3" id="L2C2">Link2</div>
+    <div class="Navlink3" id="L2C3">Link3</div>
+    <div class="Navlink3" id="L2C4">Link4</div>
+    <div class="Navlink3" id="L2C5">Link5</div>
+</nav>
+<nav class="Nav2Container4">
+  <div class="Navlink4" id="L2D1">Link1</div>
+  <div class="Navlink4" id="L2D2">Link2</div>
+  <div class="Navlink4" id="L2D3">Link3</div>
+  <div class="Navlink4" id="L2D4">Link4</div>
+  <div class="Navlink4" id="L2D5">Link5</div>
+</nav>
+</nav>
+
+    <script src="app.js" async defer></script>
+  </body>
+</html>
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navigation Practice</title>
+
+    <style>
+    header{
+        margin-top: 100px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+        nav > ul {
+            display: flex;
+            list-style-type: none;
+            padding: 14px 0 14px 0;
+            /*When three values are specified, the first margin applies to the top, the second to the right and left, the third to the bottom.*/
+            margin: -8px -8px -8px;
+            background-color: white;
+            border: 1px dashed red;
+        }
+        li a {
+            border: 1px solid #000;
+            padding: 10px 30px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .link1{
+
+        }
+        .link2{
+
+        }
+        .link3{
+        }
+        .link4{
+
+        }
+        .link5{
+
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li class="link1"><a href="#">Link1</a></li>
+            <li class="link2"><a href="#">Link2</a></li>
+            <li class="link3"><a href="#">Link3</a></li>
+            <li class="link4"><a href="#">Link4</a></li>
+            <li class="link5"><a href="#">Link5</a></li>
+        </ul>
+    </nav>
+
+</header>
+</body>
+</html> -->

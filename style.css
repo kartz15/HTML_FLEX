@@ -1,0 +1,177 @@
+.container{
+    border:solid red;
+    height:200px;
+    display:flex;
+}
+.boxes{
+    border:solid black;
+    margin:1em;
+    height:90px;
+    width:90px;
+}
+
+#box1{
+    background-color: lime;
+}
+#box2{
+    background-color: blue;
+}
+#box3{
+    background-color: grey;
+}
+#box4{
+    background-color: orange;
+}
+#box5{
+    background-color: purple;
+}
+#box6{
+    background-color: pink;
+}
+#box7{
+    background-color: magenta;
+}
+#box8{
+    background-color: navy;
+}
+
+.container2{
+    border:solid green;
+    display:flex;
+    padding:1em;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.something{
+    border:solid blue;
+}
+.duh
+{
+    width:20%;
+}
+
+.Nav1Container{
+    border:solid red;
+    height:200px;
+
+}
+
+.NavContainer1{
+    border:solid green;
+    display:flex;
+    padding:.1em;
+    margin:1em;
+    justify-content: space-between;
+}
+
+.Navlink1{
+    border: solid red;
+}
+#LA1
+{
+    margin-right:auto;
+}
+
+.NavContainer2{
+    border:solid green;
+    display:flex;
+    padding:.1em;
+    margin:1em;
+    justify-content: space-between;
+
+}
+
+.Navlink2{
+    border: solid red;
+}
+#LB4
+{
+    margin-right:auto;
+}
+
+.NavContainer3{
+    border:solid green;
+    display:flex;
+    padding:.1em;
+    margin:1em;
+    justify-content:right;
+
+}
+
+.Navlink3{
+    border: solid red;
+}
+
+.NavContainer4{
+    border:solid green;
+    display:flex;
+    padding:.1em;
+    margin:1em;
+    justify-content:center;
+
+}
+
+.Navlink4{
+    border: solid red;
+   
+}
+
+.Nav2Container{
+    border:solid red;
+    height:200px;
+}
+
+.Nav2Container1{
+    border:solid green;
+    display:flex;
+    padding:.1em;
+    margin:1em;
+    justify-content: space-evenly;
+}
+.Nav2Container2{
+    border:solid green;
+    display:flex;
+    padding:.1em;
+    margin:1em;
+    justify-content: space-between;
+}
+.Nav2Container3{
+    border:solid green;
+    display:flex;
+    padding:.1em;
+    margin:1em;
+    justify-content: space-between;
+}
+.Nav2Container4{
+    border:solid green;
+    display:flex;
+    padding:.1em;
+    margin:1em;
+    justify-content: space-between;
+}
+
+#L2B3
+{
+    margin-right:auto;
+}
+
+#L2C2
+{
+    margin-right:auto;
+}
+
+#L2C3
+{
+    margin-right:auto;
+}
+
+#L2D1
+{
+    margin-right:auto;
+}
+
+#L2D3
+{
+    margin-right:auto;
+}
